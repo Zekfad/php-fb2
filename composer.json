@@ -1,0 +1,33 @@
+{
+    "$schema": "https://getcomposer.org/schema.json",
+    "name": "zekfad/fb2",
+    "version": "1.0.0",
+    "description": "FB2 Reader/Writer",
+    "keywords" : [ "XML", "FB2" ],
+    "homepage" : "https://github.com/Zekfad/php-fb2",
+    "type": "library",
+    "require": {
+        "sabre/xml": "^4.0",
+        "zekfad/xml": "^1.0.0"
+    },
+    "license": "ISC",
+    "autoload": {
+        "psr-4": {
+            "Zekfad\\FB2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yaroslav Vorobev",
+            "email": "zekfad@null.moe",
+            "homepage": "https://null.moe/",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/Zekfad/php-xml.git"
+        }
+    ]
+}
